@@ -4,6 +4,6 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
   def initialize(x)
-    x.each do |k, v|
+    x.each {|k, v| 
 
 end
